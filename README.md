@@ -84,22 +84,6 @@ To run tests, run the following command,Run program with npm
 - [@iksanArifki27](https://github.com/IksanArifki27)
 
 
-## Support
-
-For support, email fake@fake.com or join our Slack channel.
-
-
-## Roadmap
-
-- Additional browser support
-
-- Add more integrations
-
-
-## Optimizations
-
-What optimizations did you make in your code? E.g. refactors, performance improvements, accessibility
-
 
 ## Badges
 
