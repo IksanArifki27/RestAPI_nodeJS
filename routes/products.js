@@ -2,11 +2,12 @@ var express = require("express");
 const Validator = require("fastest-validator");
 // const Product = require("../models/Product");
 const { Product } = require("../models");
+const verifyToken = require("./veryfyToken");
 var router = express.Router();
 
 const v = new Validator();
 // get all data
-router.get("/", async (req, res) => {
+router.get("/", verifyToken, async (req, res) => {
   const product = await Product.findAll();
   res.json({ data: product });
 });
